@@ -32,7 +32,5 @@ public class NotOrtalamasi {
 
         if(result>60) System.out.println("Sınıfı geçtiniz.");
         else System.out.println("Sınıfta kaldınız");
-
-        
     }
 }
