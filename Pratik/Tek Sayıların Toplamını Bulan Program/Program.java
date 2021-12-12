@@ -9,11 +9,13 @@ public class Program {
         Scanner sc = new Scanner(System.in);
         
         //Pratik
-        // int n;
+        // int n,sum=0;
         // do
         // {
         // System.out.println("Bir sayi girin");
         // n = sc.nextInt();
+        //if(n%2!=0)
+        //sum+=n;
         // }while(n>0);
         
         //Odev
