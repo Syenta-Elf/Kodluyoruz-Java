@@ -1,0 +1,36 @@
+/**
+ * BHarfi
+ */
+public class BHarfi {
+
+    public static void main(String[] args) {
+        String[][] matris = new String[7][4];
+
+        for(int i=0 ; i<7;i++)
+        {
+            for(int j=0;j<4;j++)
+            {
+                if(i==0 || i==3 || i==6)
+                {
+                    matris[i][j]=" * ";
+                }
+                else if(j==0 || j==3)
+                {
+                    matris[i][j]=" * ";
+                }
+                else
+                {
+                    matris[i][j]="   ";
+                }
+            }
+        }
+        for (String[] row : matris){
+            for (String col : row){
+                System.out.print(col);
+            }
+            System.out.println();
+        }
+
+        
+    }
+}
