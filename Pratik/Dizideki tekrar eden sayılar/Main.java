@@ -24,7 +24,7 @@ public class Main {
         {
             for(int j=0;j<numbers.length;j++)
             {
-               if(i!=j && numbers[i]==numbers[j] )
+               if(i!=j && numbers[i]==numbers[j] && numbers[i]%2==0)
                 {
                     if(isFind(duplicate,numbers[i]))
                     {
